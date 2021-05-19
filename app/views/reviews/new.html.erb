@@ -1,0 +1,4 @@
+<div class="container">
+  <h1>Write a review of <%= Restaurant.find(params[:restaurant_id]).name %></h1>
+  <%= render 'reviews/form' %>
+</div>
